@@ -1,47 +1,4 @@
 .contact {
     width: 70%;
-    height: 370px;
-    background-color: rgb(149, 161, 161);
     margin: 0 auto;
-    text-align: center;
-    border-radius: 48px;
-    &__title {
-        position: relative;
-        top: 68px;
-        width: 400px;
-        height: 65px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-        &__icon {
-            width: 40px;
-            height: 40px;
-            margin-top: 12px;
-        }
-        &__h2 {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 180%;
-            color: white;
-        }
-    }
-    &__content {
-        margin: 0 auto;
-        margin-top: 80px;
-        width: 600px;
-        height: 70px;
-        letter-spacing: 0.1em;
-        color: white;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 160%;
-    }
-    &__btn {
-        width: 320px;
-        height: 50px;
-        background-color: aquamarine;
-        margin: 0 auto;
-        border-radius: 98px;
-        display: flex;
-    }
 }
