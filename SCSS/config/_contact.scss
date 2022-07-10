@@ -1,4 +1,60 @@
 .contact {
+    position: relative;
     width: 70%;
+    height: 350px;
+    background-color: #0071BC;
+    opacity: 0.7;
     margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 48px;
+    background: lurl(../../assets/img/bg-line.jpg);
+    background-size: cover;
+    &__title {
+        width: 400px;
+        height: 100px;
+        margin:  0 auto;
+        padding-top: 30px;
+        display: flex;
+        &__icon {
+            width: 60px;
+            height: 60px;
+            margin-top: 20px;
+        }
+        &__h2 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 180%;
+            color: white;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+    }
+    &__content {
+        width: 60%;
+        padding-top: 40px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 160%;
+        color: white;
+    }
+    &__btn {
+        width: 320px;
+        height: 50px;
+        display: flex;
+        margin:  0 auto;
+        border-radius: 98px;
+        background-color: white;
+        margin-top: 30px;
+        justify-content: center;
+        &__content {
+            display: block;
+            text-align: center;
+            margin-top: 100px;
+        }
+        &__img {
+            display: block;
+        }
+    }
 }
