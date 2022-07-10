@@ -127,8 +127,54 @@
 
 .footer {
   width: 100%;
-  height: 400px;
-  background-color: black;
+  height: 300px;
+  border-top: 0.5px solid #8f8f8f;
+  border-bottom: 0.5px solid #8f8f8f;
+  text-align: center;
+}
+.footer__title {
+  width: 20%;
+  height: 50px;
+  margin: 0 auto;
+}
+.footer__title__img {
+  width: 200px;
+  height: 100px;
+}
+.footer__title__box {
+  position: relative;
+  left: 70px;
+  display: flex;
+  margin: 0 auto;
+}
+.footer__title__box__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #666666;
+}
+.footer__title__box__link__img {
+  width: 30px;
+  height: 30px;
+}
+.footer__icon {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.footer__copyright {
+  width: 100%;
+  height: 50px;
+}
+.footer__copyright__item {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 /*!
