@@ -73,7 +73,7 @@
   margin: 0 auto;
   margin-bottom: 100px;
   border-radius: 48px;
-  background:  url(../../assets/img/bg-line.jpg);
+  background: url(../../assets/img/bg-line.jpg);
   background-size: cover;
 }
 .contact__title {
@@ -123,6 +123,12 @@
 }
 .contact__btn__img {
   display: block;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
 }
 
 /*!
