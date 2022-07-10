@@ -65,51 +65,70 @@
 }
 
 .contact {
+  position: relative;
   width: 70%;
-  height: 370px;
-  background-color: rgb(149, 161, 161);
+  height: 350px;
+  background-color: #0071BC;
+  opacity: 0.7;
   margin: 0 auto;
-  text-align: center;
+  margin-bottom: 100px;
   border-radius: 48px;
+  background: url(../../assets/img/bg-line.jpg);
+  background-size: cover;
 }
 .contact__title {
-  position: relative;
-  top: 68px;
   width: 400px;
-  height: 65px;
+  height: 100px;
   margin: 0 auto;
+  padding-top: 30px;
   display: flex;
-  justify-content: space-around;
 }
 .contact__title__icon {
-  width: 40px;
-  height: 40px;
-  margin-top: 12px;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
 }
 .contact__title__h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 180%;
   color: white;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 .contact__content {
+  width: 60%;
+  padding-top: 40px;
   margin: 0 auto;
-  margin-top: 80px;
-  width: 600px;
-  height: 70px;
-  letter-spacing: 0.1em;
-  color: white;
+  text-align: center;
   font-weight: 700;
   font-size: 15px;
   line-height: 160%;
+  color: white;
 }
 .contact__btn {
   width: 320px;
   height: 50px;
-  background-color: aquamarine;
+  display: flex;
   margin: 0 auto;
   border-radius: 98px;
-  display: flex;
+  background-color: white;
+  margin-top: 30px;
+  justify-content: center;
+}
+.contact__btn__content {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+.contact__btn__img {
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
 }
 
 /*!
